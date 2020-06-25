@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Map
+comment1.params=rows\ cols
+comment1.target=Map(int,\ int)
+comment1.text=\n\ \ \tprivate\ int\ mapSize\ \=\ 512;\ //\ in\ pixels\n\ \ \tprivate\ int\ tileSize\ \=\ 64;\ //\ \n\ \ \tprivate\ int\ tilesPerSide\ \=\ 8;\n
+comment2.params=mapTemplate
+comment2.target=Map(char[][])
+comment3.params=
+comment3.target=void\ addWalls()
+comment4.params=row\ col\ value
+comment4.target=boolean\ setTile(int,\ int,\ char)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=
+comment6.target=void\ initHeroLocation()
+comment7.params=direction
+comment7.target=char\ processInput(int)
+comment8.params=row\ col
+comment8.target=boolean\ isValidMove(int,\ int)
+comment9.params=startRow\ startCol\ endRow\ endCol
+comment9.target=char\ applyMove(int,\ int,\ int,\ int)
+numComments=10
