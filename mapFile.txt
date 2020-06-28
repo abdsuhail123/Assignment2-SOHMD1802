@@ -1,0 +1,8 @@
+6 12
+XXXXXXXXXXXX
+X.H.....2..X
+X..0.......X
+X.....1....X
+X..........X
+XXXXXXXXXXXX
+

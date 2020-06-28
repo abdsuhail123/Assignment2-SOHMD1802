@@ -2,9 +2,9 @@
 comment0.target=Map
 comment1.params=rows\ cols
 comment1.target=Map(int,\ int)
-comment1.text=\n\ \ \tprivate\ int\ mapSize\ \=\ 512;\ //\ in\ pixels\n\ \ \tprivate\ int\ tileSize\ \=\ 64;\ //\ \n\ \ \tprivate\ int\ tilesPerSide\ \=\ 8;\n
-comment2.params=mapTemplate
-comment2.target=Map(char[][])
+comment1.text=\n\ \ \ \ private\ int\ mapSize\ \=\ 512;\ //\ in\ pixels\n\ \ \ \ private\ int\ tileSize\ \=\ 64;\ //\ \n\ \ \ \ private\ int\ tilesPerSide\ \=\ 8;\n
+comment2.params=mapTemplate\ rows1\ cols1
+comment2.target=Map(char[][],\ int,\ int)
 comment3.params=
 comment3.target=void\ addWalls()
 comment4.params=row\ col\ value

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=FileLoader
+comment1.params=fileName
+comment1.target=Map\ loadMap(java.lang.String)
+numComments=2
