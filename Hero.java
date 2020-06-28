@@ -163,6 +163,8 @@ public class Hero{
         return returnVal;
     }
 
+    
+    // Mutator Methods to set values
     public void setPhysical(int p){
         physicalSkill = p;
     }
@@ -173,5 +175,18 @@ public class Hero{
 
     public void setSocial(int s){
         socialSkill = s;
+    }
+    
+    // Accessor Methods to get values
+    public int getPhysical(){
+        return physicalSkill;
+    }
+
+    public int getMental(){
+        return mentalSkill;
+    }
+
+    public int getSocial(){
+        return socialSkill;
     }
 }

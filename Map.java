@@ -35,15 +35,8 @@ public class Map{
 
     // Generate the map based on the template
     // Added some code myself to suit 
-    public Map(char[][] mapTemplate, int rows1, int cols1){
-        currentMap = new char[rows1][cols1];
-
-        for(int r = 0; r < rows1; r++){
-            for(int c =0 ; c < cols1; c++){
-                currentMap[r][c] = mapTemplate[r][c];
-            }
-        }
-        heroRow = rows1; heroCol = cols1;
+    public Map(char[][] mapTemplate){
+        currentMap = mapTemplate ;
     }
 
     // Set every tile on the edge of the map (top/bottom and sides) to = 'X'
@@ -171,7 +164,6 @@ public class Map{
 
         return returnVal;
     }
-   
 
     /*
     // [ ] Last Phase, add Art
@@ -267,6 +259,5 @@ public class Map{
     X.............X
     XXXXXXXXXXXXXXX
      */
-
 
 }

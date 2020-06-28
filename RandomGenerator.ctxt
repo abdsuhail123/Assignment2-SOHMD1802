@@ -12,4 +12,6 @@ comment5.params=
 comment5.target=java.lang.String\ getRandomLocationName()
 comment6.params=min\ max
 comment6.target=int\ randomRoll(int,\ int)
-numComments=7
+comment7.params=
+comment7.target=java.lang.String\ getStatToCheck()
+numComments=8

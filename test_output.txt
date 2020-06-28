@@ -1,0 +1,88 @@
+
+Muhammad Abdullah Sohail
+
+SOHMD1802
+
+// The output is of GameController
+// Only Completed till phase 5(a)
+
+
+Dylan
+The Instructor  
+ - Stress: 2/14
+ - physical: 3
+ - mental:4
+ - social:5
+[EMPTY]
+
+==================
+
+Your new enemy is the Small Lizard Doesn't look like much of anything
+ You win
+You get the reward: Magic Helmet
+==================
+==================
+
+Your new enemy is the Insignificant Blob Doesn't look like much of anything
+You lose!
+Hero gains stress level 3
+==================
+==================
+
+Your new enemy is the Small Dragon Doesn't look like much of anything
+ You win
+You get the reward: Broken Helmet
+==================
+==================
+
+Your new enemy is the Insignificant Bandit Doesn't look like much of anything
+ You win
+You get the reward: Glowing Sword
+==================
+==================
+
+Your new enemy is the Small Orc Doesn't look like much of anything
+You lose!
+Hero gains stress level 1
+==================
+==================
+
+Your new enemy is the Small Goblin Doesn't look like much of anything
+You lose!
+Hero gains stress level 2
+==================
+==================
+
+Your new enemy is the Trivial Bandit Doesn't look like much of anything
+ You win
+You get the reward: Rusted Boots
+==================
+==================
+
+Your new enemy is the Small Mouse Doesn't look like much of anything
+You lose!
+Hero gains stress level 2
+==================
+==================
+
+Your new enemy is the Insignificant Mouse Doesn't look like much of anything
+You lose!
+Hero gains stress level 2
+==================
+==================
+
+Your new enemy is the Trivial Orc Doesn't look like much of anything
+ You win
+You get the reward: Strange Shield
+==================
+
+=== Final Output ===
+Dylan
+The Instructor  
+ - Stress: 12/14
+ - physical: 3
+ - mental:4
+ - social:5
+[Magic Helmet, Broken Helmet, Glowing Sword, Rusted Boots, Strange Shield]
+==================
+Thank you for playing. The End

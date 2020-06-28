@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GameController
+comment0.text=\n\ \ \ \ \ \ \ \ \ GameController\ Class\n\ \ \ \ \ \ Runs\ all\ the\ other\ scripts\n\ \ \ \n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=hero\ event
+comment2.target=void\ nextEncounter(Hero,\ Encounter)
+comment3.params=
+comment3.target=int\ getInput()
+numComments=4

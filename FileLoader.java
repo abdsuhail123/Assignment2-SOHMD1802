@@ -69,6 +69,7 @@ public class FileLoader
                     token = buffer.read(); //Reading in token value as int
                     index = (char)token ; //casting token value as char in index
                     mapTemplate[i][j] = index; //placing that index
+
                     //System.out.print(mapTemplate[i][j]);
                 }
                 line = buffer.readLine(); //reset to the next line
@@ -76,7 +77,7 @@ public class FileLoader
             }
 
             //Creating a new Map with our template
-            newMap = new Map(mapTemplate,row,col);
+            newMap = new Map(mapTemplate);
 
             //Closing the file operations
             reader.close();

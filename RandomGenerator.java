@@ -24,7 +24,7 @@ public class RandomGenerator{
 	// this list is sorted by difficulty
 	private static String[] creatureDifficulty = {"Insignificant","Trivial","Tiny","Small","Weak","Rumpled","Sulking","Zombie","Mutant","Angry","Venomous","Fierce","Giant","Tremendous","Elemental","Monsterous","Omnipotent","Exceptional"};
 	private static String[] creatureNames = {"Mouse","Lizard","Rabbit","Skunk","Fish","Monkey","Crab","Blob","Goblin","Dinosaur","Orc","Dragon","Bandit","Werewolf"};
-	
+        private static String[] statToCheck = {"physical","mental","social"};
 	// ======== Random Generators ========
 
 	// This method returns names of monsters. 
@@ -74,6 +74,8 @@ public class RandomGenerator{
 		String name = randomNames[index];
 		return name;
 	}
+	
+	
 
 	// Just the description 
 	// [ ] Upgrade this later. 
@@ -110,4 +112,15 @@ public class RandomGenerator{
 
 		return randomNum;
 	}
+	
+	 // The following function gives us name of one random stat
+    // that we can check in our GameController class
+    // against out Hero and Encounter
+    public static String getStatToCheck(){
+        // randomly roll to get the stat
+        int indexStat = randomRoll(0,statToCheck.length);
+        // Assigning random stat as our new encounter stat
+        String returnName = statToCheck[indexStat] ;
+        return returnName;
+    }
 }

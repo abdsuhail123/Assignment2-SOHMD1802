@@ -1,91 +1,99 @@
 public class Encounter{
 
-	// Encounter Stats
-	private String statToCheck;
-	private int difficulty; // difficulty of the stat check
-	private Item reward;
-	private int risk; // how much stress to gain if you lose. 
-	
-	// Encounter Messages to print.
-	private String name = "Name";
-	private String description = "Doesn't look like much of anything";
-	private String winningDescription = " You win";
-	private String losingDescription = "You lose!";
+    // Encounter Stats
+    private String statToCheck;
+    private int difficulty; // difficulty of the stat check
+    private Item reward;
+    private int risk; // how much stress to gain if you lose. 
 
-	private int id = -1; // no id until set. 
-	// Encounter something at a place
+    // Encounter Messages to print.
+    private String name = RandomGenerator.getCreatureNameByDifficulty(difficulty);
+    private String description = "Doesn't look like much of anything";
+    private String winningDescription = " You win";
+    private String losingDescription = "You lose!";
 
-	// Constructor accepting the skillType, difficulty, reward Item and risk. 
-	// Note the descriptions are not initialized and you should use setDescriptions
-	public Encounter(String stat, int diff, Item reward, int risk){
-		statToCheck = stat;
-		difficulty = diff;
-		// Alternate example of setting variables. 
-		this.reward = reward;
-		this.risk = risk;
-	}
+    private int id = -1; // no id until set. 
+    // Encounter something at a place
 
-	public void setDescriptions(String name, String basic, String win, String lose){
-		this.name = name;
-		description = basic;
-		winningDescription = win;
-		losingDescription = lose;
-	}
+    // Constructor accepting the skillType, difficulty, reward Item and risk. 
+    // Note the descriptions are not initialized and you should use setDescriptions
+    public Encounter(String stat, int diff, Item reward, int risk){
+        statToCheck = stat;
+        difficulty = diff;
+        // Alternate example of setting variables. 
+        this.reward = reward;
+        this.risk = risk;
+    }
 
-	// Added A2
-	public int getId(){
-		return id;
-	}
-	// Added A2
-	public void setId(int newId){
-		id = newId;
-	}
+    public void setDescriptions(String name, String basic, String win, String lose){
+        this.name = name;
+        description = basic;
+        winningDescription = win;
+        losingDescription = lose;
+    }
 
-	public String getName(){
-		return name;
-	}
+    // Added A2
+    public int getId(){
+        return id;
+    }
+    // Added A2
+    public void setId(int newId){
+        id = newId;
+    }
 
-	public String getDescription(){
-		return description;
-	}
+    public String getName(){
+        return name;
+    }
 
-	public String getWinning(){
-		return winningDescription;
-	}
+    public String getDescription(){
+        return description;
+    }
 
-	public String getLosing(){
-		return losingDescription;
-	}
+    public String getWinning(){
+        return winningDescription;
+    }
 
-	public int getRisk(){
-		return risk;
-	}
+    public String getLosing(){
+        return losingDescription;
+    }
 
-	// Note I am removing the Item but also setting the original variable to null
-	// to avoid duplicates. 
-	public Item removeReward(){
-		Item temp = reward;
-		reward = null;
-		return temp;
-	}
+    public int getRisk(){
+        return risk;
+    }
 
-	public String getStatToCheck(){
-		return statToCheck;
-	}
+    // Note I am removing the Item but also setting the original variable to null
+    // to avoid duplicates. 
+    public Item removeReward(){
+        Item temp = reward;
+        reward = null;
+        return temp;
+    }
 
-	public int getDifficulty(){
-		return difficulty;
-	}
+    public String getStatToCheck(){
+        return statToCheck;
+    }
 
-	// Added for testing
-	public String fullOutput(){
-		String s = id + "\n";
-		s += name + "\n";
-		s += difficulty + " " + risk + "\n";
-		s += reward.toString() + "\n";
-		s += description + "\n";
-		s += winningDescription + "\n";
-		s += losingDescription + "\n";
-		return s;
-	}
+    public int getDifficulty(){
+        return difficulty;
+    }
+
+    // Added for testing
+    public String fullOutput(){
+        String s = id + "\n";
+        s += name + "\n";
+        s += difficulty + " " + risk + "\n";
+        s += reward.toString() + "\n";
+        s += description + "\n";
+        s += winningDescription + "\n";
+        s += losingDescription + "\n";
+        return s;
+    }
+
+    public String getWinningDescription(){
+        return winningDescription;
+    }
+    
+    public String getLosingDescription(){
+        return losingDescription;
+    }
 }
