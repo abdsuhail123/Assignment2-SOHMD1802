@@ -69,10 +69,10 @@ public class FileLoader
                     token = buffer.read(); //Reading in token value as int
                     index = (char)token ; //casting token value as char in index
                     mapTemplate[i][j] = index; //placing that index
-                    System.out.print(mapTemplate[i][j]);
+                    //System.out.print(mapTemplate[i][j]);
                 }
                 line = buffer.readLine(); //reset to the next line
-                System.out.println();
+                //System.out.println();
             }
 
             //Creating a new Map with our template
@@ -93,7 +93,7 @@ public class FileLoader
             //Error Trace
             exc.printStackTrace();
         }
-        return newMap;
+        return newMap; // Return the newMap
     }
 
     /* loadHero Method */
