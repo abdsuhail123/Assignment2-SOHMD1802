@@ -1,0 +1,29 @@
+3 // total number of encounters
+// blank line for space / clarity, this should be ignored. 
+0
+Name
+2 3
+physical
+Item Name 
+Description
+Win Statement
+Lose Statement
+
+1
+Scary Monster // name
+4 2 // diff, risk
+mental // challenge type (skill to match. )
+Monsters Teddy Bear
+The scary monster jumps out at you. // description
+It sees you and runs away. I guess you are more scary to it then it is to you. You find the treasure it left behind.  
+The monster overwhelms you and you make a getaway. 
+
+2 // Id number, array index. 
+Secret Tunnel // name
+3 0 // diff, risk
+mental
+Another Brick // Item. 
+You see a lose brick on the ground.  // description
+You pry the brick lose and find an Item // succeed. roll a random Item for now
+The brick is stuck, I cannot do anything. // fail. 
+

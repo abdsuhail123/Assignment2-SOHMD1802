@@ -1,5 +1,10 @@
 #BlueJ class context
 comment0.target=FileLoader
+comment0.text=The\ FileLoader\ class\ reads\ in\ data\ from\ .txt\ files\ for\ our\ code
 comment1.params=fileName
 comment1.target=Map\ loadMap(java.lang.String)
-numComments=2
+comment1.text=loadMap\ Method
+comment2.params=heroFile
+comment2.target=Hero\ loadHero(java.lang.String)
+comment2.text=loadHero\ Method
+numComments=3

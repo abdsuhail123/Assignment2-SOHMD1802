@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ItemList
+comment1.params=
+comment1.target=ItemList()
+comment2.params=
+comment2.target=int\ itemCount()
+comment3.params=newItem
+comment3.target=void\ addItem(Item)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5
